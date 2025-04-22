@@ -1,0 +1,15 @@
+{"compilerOptions": {
+    "target":"ES5",
+    "lib" : ["dom" ,"es2015"], // ciservono queste 2 lib per usare le promise
+    "module": "ESNext" // tipi di import da utilizzare
+    "strict": true, // per evitare di usare variabili non dichiarate
+    "esModuleInterop": true, // per usare le importazioni di tipo ES6
+    "sourceMap": true, // per generare i file .map
+    "outDir": "./dist", // cartella di output
+},
+"include": [
+    "src/**/*" // cartella di input
+]
+}
+
+
