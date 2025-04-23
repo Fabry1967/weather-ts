@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meteo</title>
+    <!-- linko il foglio di stile e i font che mi serviranno -->
+    <link rel="stylesheet" href="dist/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+    rel="stylesheet" <script
+    script src="dist/main.js" async </script>
+  </head>
+  <body>
+    <main class="container">
+        <header>
+        <form class="city-search-form">
+            <div class="search-wrapper">
+                <label for="city" class="visually-hidden"
+                >Cerca una città
+            </label>
+                <input type="search" id="city" name="city" placeholder="cerca Città" autocomplete="off" />
+                <button type="submit"> cerca  </button>
+            </div> 
+            <ul
+              class="search-results" aria-live="assertive"  
+            >
+              
+            </ul>
+             
+        </form>
+        </header>
+        <section class="weather-card"
+            aria-live="assertive"
+            arial-label="previsioni meteo">
+            <section class="weather-stats clouds"
+                aria-label="previsioni meteo citta sel">
+              <p class="weater-main"> Nuvoloso</p>
+              <p class="weater-location"> milano,italia</p>
+              <p class="weather-temperature"> 23°</p>
+              </section>
+            <section class="weather-daily"
+                aria-label="previsioni meteo giornaliere citta sel">
+               <ul>
+          <li>
+            <span class="day">lun</span>
+            <span class="stats">
+            <span> 25°</span>
+            <span> nuvol</span>
+          </li>
+          <li>
+            <span class="day">lun</span>
+            <span class="stats">
+            <span> 25°</span>
+            <span> nuvol</span>
+          </li>
+          <li>
+            <span class="day">lun</span>
+            <span class="stats">
+            <span> 25°</span>
+            <span> nuvol</span>
+          </li>
+                    
+               </ul>
+
+
+          </section>
+
+        </section>
+    </main>
+  </body>
+</html>
